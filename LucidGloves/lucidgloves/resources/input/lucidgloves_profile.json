@@ -1,13 +1,14 @@
 {
   "jsonid": "input_profile",
   "controller_type": "lucidgloves",
-  "input_bindingui_mode" : "controller_handed",
-  "input_bindingui_left" :
-  {
+  "input_bindingui_mode": "controller_handed",
+  "legacy_binding": "{lucidgloves}/input/legacy_bindings_lucidgloves.json",
+  "device_class": "TrackedDeviceClass_Controller",
+  "should_show_binding_errors": true,
+  "input_bindingui_left": {
     "image": "{lucidgloves}/icons/lucidgloves.svg"
   },
-  "input_bindingui_right" :
-  {
+  "input_bindingui_right": {
     "image": "{lucidgloves}/icons/lucidgloves.svg"
   },
   "input_source": {
